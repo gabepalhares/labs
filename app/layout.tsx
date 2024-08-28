@@ -9,16 +9,16 @@ export const metadata: Metadata = {
     default: "labs.com",
     template: "%s | labs.com",
   },
-  description: "Software Engineer & Full-Stack Craft",
+  description: "Showcase of minortypo's software engineering craft.",
   openGraph: {
     title: "labs.com",
     description:
-      "Software Engineer & Full-Stack Craft",
-    url: "https://chronark.com",
+      "Showcase of minortypo's software engineering craft.",
+    url: "https://labs-com.vercel.app/",
     siteName: "labs.com",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://labs-com.vercel.app/og.png",
         width: 1920,
         height: 1080,
       },
