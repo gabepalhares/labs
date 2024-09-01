@@ -1,5 +1,7 @@
 "use client";
-import { Github, Mail, X } from "lucide-react";
+import { Mail } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBluesky, faGithub } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -12,16 +14,16 @@ const socials = [
 		handle: "hi@gabrielpalhares.dev",
 	},
 	{
-		icon: <Github size={20} />,
+		icon: <FontAwesomeIcon icon={faGithub} size="2xl" />,
 		href: "https://github.com/minortypo",
 		label: "Github",
 		handle: "minortypo",
 	},
 	{
-		icon: <X size={20} />,
-		href: "https://x.com/minortypo",
-		label: "X dot com",
-		handle: "@minortypo",
+		icon: <FontAwesomeIcon icon={faBluesky} size="lg" />,
+		href: "https://bsky.app/profile/minortypo.social",
+		label: "Bluesky",
+		handle: "@minortypo.social",
 	},
 ];
 
