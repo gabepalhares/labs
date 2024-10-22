@@ -74,7 +74,7 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								views,
 							)}
 						</span>
-						<Link target="_blank" href="https://github.com/minortypo">
+						<Link target="_blank" href="https://github.com/gabepalhares">
 							<FontAwesomeIcon icon={faGithub}
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
