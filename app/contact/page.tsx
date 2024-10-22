@@ -20,7 +20,7 @@ const socials = [
 		handle: "gabepalhares",
 	},
 	{
-		icon: <FontAwesomeIcon icon={faXTwitter} size="lg" />,
+		icon: <FontAwesomeIcon icon={faXTwitter} size="xl" />,
 		href: "https://x.com/gabepalhares",
 		label: "X",
 		handle: "gabepalhares",
