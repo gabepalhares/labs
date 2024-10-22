@@ -32,9 +32,6 @@ importers:
       '@fortawesome/react-fontawesome':
         specifier: ^0.2.2
         version: 0.2.2(@fortawesome/fontawesome-svg-core@6.6.0)(react@19.0.0-rc-eb3ad065-20240822)
-      '@next/font':
-        specifier: ^13.5.4
-        version: 13.5.4
       '@next/mdx':
         specifier: ^13.5.4
         version: 13.5.4
@@ -453,9 +450,6 @@ packages:
 
   '@next/eslint-plugin-next@13.5.6':
     resolution: {integrity: sha512-ng7pU/DDsxPgT6ZPvuprxrkeew3XaRf4LAT4FabaEO/hAbvVx4P7wqnqdbTdDn1kgTvsI4tpIgT4Awn/m0bGbg==}
-
-  '@next/font@13.5.4':
-    resolution: {integrity: sha512-rOMki1/9BP9N93RZABiiF0EidMGgyCvNVSKvLLAnMkVh/IYk4Z827+NRuxCyRQCeT3vv/AeCiP5SFPAP10SPrQ==}
 
   '@next/mdx@13.5.4':
     resolution: {integrity: sha512-WYdWeDZUvX9h0BnjDtwyFy2We4ko8ox5EuglN27rCoYz1xj8fQ8KAn7reZgXwT2RX2hxUOl4eTNbXBfsrw7Gew==}
@@ -3234,8 +3228,6 @@ snapshots:
   '@next/eslint-plugin-next@13.5.6':
     dependencies:
       glob: 7.1.7
-
-  '@next/font@13.5.4': {}
 
   '@next/mdx@13.5.4':
     dependencies:
