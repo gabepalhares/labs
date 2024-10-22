@@ -15,7 +15,7 @@ const socials = [
 	},
 	{
 		icon: <FontAwesomeIcon icon={faGithub} size="2xl" />,
-		href: "https://github.com/minortypo",
+		href: "https://github.com/gabepalhares",
 		label: "Github",
 		handle: "gabepalhares",
 	},
