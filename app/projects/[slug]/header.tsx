@@ -4,7 +4,7 @@ import Link from "next/link";
 import Particles from "@/app/components/particles";
 import { ArrowLeft, Eye } from "lucide-react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBluesky, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faXTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 type Props = {
 	project: {
@@ -83,8 +83,8 @@ export const Header: React.FC<Props> = ({ project, views }) => {
 								} `}
 							/>
 						</Link>
-						<Link target="_blank" href="https://bsky.app/profile/minortypo.social">
-							<FontAwesomeIcon icon={faBluesky}
+						<Link target="_blank" href="https://x.com/gabepalhares">
+							<FontAwesomeIcon icon={faXTwitter}
 								className={`w-6 h-6 duration-200 hover:font-medium ${
 									isIntersecting
 										? " text-zinc-400 hover:text-zinc-100"
